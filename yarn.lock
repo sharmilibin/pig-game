@@ -1155,6 +1155,10 @@ asap@~2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
 
+ascii-math@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ascii-math/-/ascii-math-2.0.0.tgz#aa0e79f675a85466d366ac8c42e332fd1c3200eb"
+
 asn1.js@^4.0.0:
   version "4.10.1"
   resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-4.10.1.tgz#b9c2bf5805f1e64aadeed6df3a2bfafb5a73f5a0"
@@ -6769,7 +6773,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   dependencies:
@@ -6785,6 +6789,12 @@ react-error-overlay@^5.1.4:
 react-is@^16.8.1:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
+
+react-math@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-math/-/react-math-0.0.1.tgz#f01176b760ec7fbcf7e619fa20ae9e1064ad6121"
+  dependencies:
+    ascii-math "^2.0.0"
 
 react-scripts@2.1.8:
   version "2.1.8"
@@ -6839,7 +6849,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   dependencies:
